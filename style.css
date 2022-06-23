@@ -1,0 +1,276 @@
+img {
+  display: block;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  font-family: "Fira Sans";
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  margin-left: 3rem;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+.intro::before {
+  content: "";
+  display: block;
+  width: 129px;
+  height: 130px;
+  background: url(/img/detalhe.svg);
+  z-index: -1;
+  position: absolute;
+  top: 11.2rem;
+  left: 42rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  max-width: 60ch;
+  z-index: 1;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+  gap: 1rem;
+}
+
+.item {
+  list-style: none;
+  padding: 0.1px 10px;
+  border-radius: 4px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  margin-top: 1rem;
+}
+
+.titulo {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 19rem;
+}
+
+.descricao {
+  margin-top: 6.5rem;
+  margin-bottom: 1rem;
+  padding-left: 6rem;
+  height: 10rem;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.experiencia h2 {
+  color: #e0e0e0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 144px;
+  word-break: break-all;
+  width: 21rem;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.lista li:nth-child(even) {
+  text-align: center;
+}
+
+.lista li:nth-child(odd) {
+  text-align: center;
+}
+
+.lista li:nth-child(odd)::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  left: 0rem;
+  border-left: solid rebeccapurple;
+}
+
+.craftsynth {
+  background: #f5f5f5;
+  width: 20vw;
+  height: 15vh;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.tecnologia {
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  margin-right: 0.3rem;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 48vw 50vw;
+  grid-template-areas: "formacao section";
+  background: #202020;
+}
+
+.formacao h5 {
+  grid-area: formacao;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 144px;
+  width: 25rem;
+  color: #000000;
+  word-break: break-all;
+  padding-left: 18rem;
+  margin-top: 5rem;
+}
+
+.section {
+  grid-area: section;
+  background: #202020;
+  padding-bottom: 5rem;
+}
+
+.sectiontext {
+  word-break: break-all;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #a3a3a3;
+  padding-top: 4.5rem;
+  padding-left: 3rem;
+  padding-right: 25rem;
+}
+
+.list2 {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.list2item {
+  background: #000000;
+  border-radius: 8px;
+  width: 11rem;
+  height: 10rem;
+}
+
+.titulo2 {
+  display: block;
+  color: #a3a3a3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 1.8rem;
+  padding-top: 1rem;
+}
+
+.titulo3 {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  padding-left: 1.8rem;
+}
+
+.cursosintensivos {
+  color: #ffffff;
+}
+
+.cursosintensivos li:nth-child(2) {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+}
+
+.curso {
+  display: block;
+  padding-top: 4px;
+  color: #a3a3a3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+footer {
+  background: #000;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.textfooter {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  width: 30rem;
+}
+
+.contact {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.direitos {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8f8f8f;
+  padding-top: 5rem;
+}
